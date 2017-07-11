@@ -50,5 +50,8 @@ function Controller ($scope) {
   1. you can use this thought to decorator ng-dbclick, ng-mousedown, ng-... ;
   2. ng-fool-click adds a 'btn-in-promise' class to the target when the promise isn't finished, you can define your own styles.
 
+### demo 
+ [DEMO](https://codepen.io/0xfc/pen/RgEwWv)
+ 
 ### thanks for using
 
