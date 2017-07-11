@@ -1,0 +1,10 @@
+{
+  "name": "ng-fool-click",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "",
+  "ignore": [],
+  "dependencies": {
+    "angular": "^1.5.8"
+  }
+}

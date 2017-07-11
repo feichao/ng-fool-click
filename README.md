@@ -30,13 +30,25 @@ function Controller ($scope) {
  So ng-fool-click is created to solve this problem elegant. 
 
 ### what ng-fool-click do?
- The point is using $provide.decorator to override the origin ng-click.
+ The point is using $provide.decorator to override the origin ng-click. 
+ 
+ When you use ng-click, guarantee that your click event handler returns a promise instance. 
+ 
+ When the decorator detect a promise, it will add a 'disabled' state to the click target(maybe a button) before the promise is finished.
  
 ### how to use
 
  1. Import the src file in you html;
  2. Import the ng-fool-click module like this:
- 
     ```
     angular.module('MyApp', ['ng-fool-click']);
     ```
+
+ 3. return a promise in your ng-click event handler.
+
+### more
+  1. you can use this thought to decorator ng-dbclick, ng-mousedown, ng-... ;
+  2. ng-fool-click adds a 'btn-in-promise' class to the target when the promise isn't finished, you can define your own styles.
+
+### thanks for using
+
