@@ -53,5 +53,8 @@ function Controller ($scope) {
 ### demo 
  [DEMO](https://codepen.io/0xfc/pen/RgEwWv)
  
+### install 
+ bower install --save ngFoolClick
+ 
 ### thanks for using
 
